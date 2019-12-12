@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(249,232,182);
+  font-family: 'Alegreya Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.nav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #b4b1a7;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 10px;
+  transition: 0.7s;
+}
+
+.nav a{
+  display: block;
+  padding: 20px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover{
+  color:#fff;
+  transition: 0.4s;
+}
+.nav.close{
+  position: absolute;
+  top: 0;
+  right: 22px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.slide a{
+  color: black;
+  font-size: 36px;
+  padding: 20px;
+}
+
+.slide a:hover{
+  color:#fff;
+}
+
+#navbar{
+  padding: 10px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+}
+
+ul{
+  padding-left: 20px;
+  list-style-type: none;
+}
+.paw{
+  text-align: center;
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 36px;
+}
+h2{
+  margin-top: 0;
+}
+
+.gallery2{
+  width: 900px;
+	height: 400px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  text-align: center;
+  list-style-type: none;
+}
+
+.image{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  background-color: #b4b1a7;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 10px 24px;
+  border-radius: 12px;
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

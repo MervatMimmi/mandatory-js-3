@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dog Breeds</title>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="dogbreeds.js" defer></script>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="slide">
+          <a href="#" onclick="openSlideMenu()">
+            <i class="material-icons">menu</i>
+          </a>
+        </div>
+        <div id="menu" class="nav">
+          <a href="#" onclick="closeSlideMenu()">
+            <i class="material-icons">close</i>
+          </a>
+            <ul id="list">
+            </ul>
+        </div>
+        <div class="paw">
+          <i class="material-icons">pets</i>
+          <i class="material-icons">pets</i>
+          <i class="material-icons">pets</i>
+        <h1>Dog breeds</h1>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="gallery2">
+          <button  type="button" class="button" onclick="getData()">Refresh Button</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
